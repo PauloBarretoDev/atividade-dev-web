@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    width: 100%;
+    font-family: helvetica;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(64, 64, 155);
+}
+#container{
+    height: 100%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    align-items: center;
+}
+
+#container #header{
+    text-align: center;
+    margin-bottom: 15px;
+}
+h1{
+    font-weight: 700;
+    font-weight: bold;
+}
+
+#container #formulario label{
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#container #formulario .inputs{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#container #formulario input{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-shadow:  0 0 3px 0.1px #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#container #formulario input:focus-visible{
+    border-radius: 8px;
+    border: none;
+    outline: 0.1px solid rgb(64, 64, 155) ;
+    box-shadow:  0 0 3px 0.1px #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#container #formulario #buttonLogin{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+#container #formulario #buttonLogin button{
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgb(64, 64, 155);
+    color: #fff;
+}
+#container #formulario #buttonLogin button:hover{
+    background-color: rgb(40, 40, 117);
+    cursor: pointer;
+}
+
+#container #formulario #linkCadastro{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300px;
+}
+
+#container #formulario #linkCadastro a{
+    cursor: pointer;
+    color: rgb(64, 64, 155);
+}
+
+#container #formulario #linkCadastro a:hover{
+    cursor: pointer;
+    color: rgb(40, 40, 117);
+}
+h4{
+    font-weight: 300;
+}
